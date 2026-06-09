@@ -6,7 +6,7 @@ int main (){
    scanf("%d" , &r);
    scanf("%d" , &c);
 
-   int mat1[r][c] , mat2[r][c];
+   int mat1[4][4] , mat2[4][4];
 
    for(int i = 0;i<r ; i++){
     for( int j= 0 ; j < c ; j++){

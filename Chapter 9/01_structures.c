@@ -1,15 +1,19 @@
 #include<stdio.h>
 #include <string.h>
 
-struct students{
-    int roll ;
-    float cgpa ;
-    char name[100];
+struct student{
+    char Garde;
+    int rollNo;
+    float percentage;
 };
 
 int main(){
-    struct students s1 = {3119 , 9.42 , "kaushal"};
-    struct students s1 = {3319 , 8.42 , "aditi"};
-    struct students s1 = {3339 , 8.48 , "rawat"};
+    struct student s1={'A', 20 , 98.23};
+    printf("%d" , s1.rollNo);
 
+    struct student s2;
+
+    scanf("%c %d %f" , &s2.Garde , &s2.rollNo, &s2.percentage);
+    printf("----------------------------------------------");
+    printf("%c %d %f" , s2.Garde , s2.rollNo, s2.percentage);
 }
