@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include <string.h>
-typedef struct students{
+
+struct students{
     int roll ;
     float cgpa ;
     char name[100];
-}st;
+};
 
 int main(){
     struct students s1 = {3119 , 9.42 , "kaushal"};
