@@ -10,7 +10,7 @@ int main(){
     printf("enter the subjects: ");
     scanf("%d", &marks);
 
-    int record[roll][marks];
+    int record[3][3];
 
     for(int i = 0 ; i < roll; i++){
         for(int j = 0 ; j < marks ; j++){
